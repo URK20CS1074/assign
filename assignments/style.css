@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+}
+.bi{
+    background-image:url("bg.jpg") ;
+    opacity: 60%;
+}
+.h1{
+    text-align: center;
+    color:black;
+    text-decoration: black;
+    text-shadow: 50%;
+    font-size: 50px;
+
+}
+.button{
+    border-radius: 2px;
+    float: right;
+    color: blue;
+    padding-top: 30px;
+  height: 3px;
+}
+.line{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 60px;
+    color:darkgray;
+    background-color: maroon;
+}
+
+.bags{
+    border-radius: 3px;
+    float: left;
+}
+.offer{
+    float: left;
+    height: 50px;
+}
+.h3{
+    color: black;
+    font-size: 30px;
+}

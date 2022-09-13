@@ -1,0 +1,33 @@
+<!--onmouseover-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function changestyle(){
+            //document.getElementById('box').style.color="blue";
+            //document.getElementById('box').style.backgroundColor="red";
+            //document.getElementById('box').style.fontSize="25px";
+            var div=document.getElementById('box');
+            div.style.color="blue";
+            div.style.backgroundColor="yellow";
+            div.style.fontSize="25px";
+            div.style.height="500px"
+
+        }
+        var div=document.getElementById('box');
+            div.style.color="orange";
+            div.style.backgroundColor="pink";
+            div.style.fontSize="25px";
+            div.style.height="500px"
+
+    </script>
+</head>
+<body>
+    <div id="box" onmouseover="changestyle()" onmouseout="changeold()">change style</div>
+    
+</body>
+</html>
